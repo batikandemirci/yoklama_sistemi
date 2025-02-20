@@ -1,81 +1,42 @@
-# Video Tabanlı Yoklama Sistemi
+# Kamera Tabanlı Yoklama Sistemi
 
-Bu proje, yüz tanıma teknolojisi kullanarak video tabanlı bir yoklama sistemi oluşturmayı amaçlamaktadır. Sistem, canlı kamera görüntüsü veya yüklenmiş videolar üzerinden yüz tanıma yaparak otomatik yoklama alabilmektedir.
+![Kullanıcılar](https://github.com/user-attachments/assets/d96b31f0-cccf-4ac4-8081-2097d5f5c3c8)
+![Yoklama al](https://github.com/user-attachments/assets/721a11c4-9dc8-4101-95e7-3b914972f4d6)
+![Yoklama Kayıtları](https://github.com/user-attachments/assets/f1989917-5225-4672-ba32-0b15b393e2a4)
 
-## 🚀 Özellikler
+Türkiye'de hala birçok eğitim kurumunda yoklamalar kağıt üzerinde alınıyor. Bu durumu değiştirmek için bir adım atmak istedim ve kamera&video tabanlı bir yoklama sistemi geliştirdim.
 
-### ✅ Tamamlanan Özellikler
+🎯 Mevcut Durum ve Hedef:
+• Günde ortalama 5-10 dakika yoklama işlemlerine harcanıyor
+• Kağıt israfı ve arşivleme zorlukları yaşanıyor
+• Manuel işlemlerde insan kaynaklı hatalar oluşabiliyor
 
-1. **Yüz Tanıma**
-   - DeepFace ve MTCNN kullanarak yüz tespiti ve tanıma
-   - Referans fotoğrafları ile yüz eşleştirme
-   - Güven skoru hesaplama ve filtreleme
-   - Çoklu yüz tanıma desteği
+💡 Geliştirdiğim Sistem:
+• Video veya kamera üzerinden yüz tanıma ile yoklama
+• Basit ve kullanıcı dostu arayüz
+• Şimdilik yarı-dinamik kayıt ve raporlama
 
-2. **Kullanıcı Yönetimi**
-   - Kullanıcı ekleme, düzenleme ve silme
-   - Rol tabanlı kullanıcı sistemi (öğrenci, öğretmen vb.)
-   - Referans fotoğrafı yükleme ve güncelleme
+⚠️ Mevcut Sınırlamalar:
+• Yüz tanıma doğruluk oranı geliştirilebilir (%60-70 civarı)
+• Kalabalık sınıflarda performans düşüşü
+• Aydınlatma koşullarına bağımlılık
+• Video işleme süresinin optimizasyon ihtiyacı
 
-3. **Yoklama Kayıtları**
-   - Otomatik yoklama kaydı oluşturma
-   - Günlük yoklama raporları
-   - Kullanıcı bazlı yoklama geçmişi
-   - Güven skoru ve zaman damgası ile kayıt
+🛠️ Kullanılan Teknolojiler:
+• Backend: Python, FastAPI, SQLAlchemy
+• AI: DeepFace, MTCNN, OpenCV, TensorFlow
+• Frontend: React, Next.js, Tailwind CSS
+• Database: PostgreSQL
 
-4. **API ve Frontend**
-   - FastAPI ile RESTful API
-   - React ile modern web arayüzü
-   - Gerçek zamanlı video işleme
-   - Responsive tasarım
+🔄 Gelecek Geliştirmeler:
+• Tam otonom bir sistem olması
+• Veri tabanı entegrasyonun iyileştirilmesi
+• Doğruluk oranının artırılması
+• Performans optimizasyonu
+• Gerçek zamanlı işleme kapasitesi
 
-### 🚧 Eksik/Geliştirilmesi Gereken Özellikler
+Bu proje, eğitimde dijital dönüşüm yolculuğunda atılmış küçük bir adım. Henüz mükemmel değil, ama geliştirilmeye açık bir başlangıç.
 
-1. **Video İşleme İyileştirmeleri**
-   - Video işleme performansının optimizasyonu
-   - Frame atlama mantığının iyileştirilmesi
-   - Video durdurma/devam ettirme kontrolü
-   - Video işleme progress bar'ı
-
-2. **Yoklama Sistemi Geliştirmeleri**
-   - Ders/sınıf bazlı yoklama tanımları
-   - Özelleştirilebilir yoklama saatleri
-   - Geç kalma toleransı ayarları
-   - Otomatik yoklama raporu oluşturma
-   - Gerçek zamanlı statik yerine dinamik yoklama alma
-
-3. **Kullanıcı Arayüzü İyileştirmeleri**
-   - Daha detaylı hata mesajları
-   - Loading state'leri
-   - Form validasyonları
-   - Kullanıcı geri bildirimleri
-
-4. **Güvenlik ve Performans**
-   - JWT authentication
-   - Rate limiting
-   - Caching mekanizması
-   - API endpoint optimizasyonları
-
-## 🛠️ Teknolojiler
-
-### Backend
-- Python 3.8+
-- FastAPI
-- SQLAlchemy
-- DeepFace
-- MTCNN
-- OpenCV
-- TensorFlow
-
-### Frontend
-- React
-- Next.js
-- Tailwind CSS
-- Axios
-
-### Veritabanı
-- SQLite (Geliştirme)
-- PostgreSQL (Üretim için önerilen)
 
 ## 🚀 Kurulum
 
@@ -172,7 +133,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 ## 👥 Yazarlar
 
-- İsim Soyisim - [GitHub](github-link)
+- Batıkan DEMİRCİ - [GitHub]([github-link](https://github.com/batikandemirci))
 
 ## 🙏 Teşekkürler
 
